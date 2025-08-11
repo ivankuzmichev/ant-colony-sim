@@ -1,0 +1,17 @@
+name,category,default,min,max,notes
+tile_porosity,soil,0.4,0.1,0.9,Доля пустот
+tile_thermal_conductivity,soil,0.6,0.1,1.2,Условная ед.
+tile_water_absorption,soil,0.5,0.0,1.0,0..1
+tile_density,soil,1.0,0.5,2.0,Отн. плотность
+ant_carry_rate,ants,4,1,12,Песчинок/мин
+ant_dig_rate,ants,3,1,10,Выемок/мин
+food_spawn_rate,economy,1.0,0.2,2.0,Множитель
+food_consumption_per_capita,economy,0.5,0.1,2.0,Ккал/мин
+larva_maturation_time,bio,600,180,1800,Сек до взрослой
+egg_hatch_time,bio,300,120,1200,Сек до личинки
+optimal_temp_low,env,24,18,26,°C
+optimal_temp_high,env,28,24,32,°C
+optimal_humidity_low,env,60,40,70,%
+optimal_humidity_high,env,75,60,90,%
+weather_daily_temp_amp,env,8,2,15,Сут. амплитуда
+weather_season_multiplier,env,1.0,0.5,1.5,Сезонный множитель

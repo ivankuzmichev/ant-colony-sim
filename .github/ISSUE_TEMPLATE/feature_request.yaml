@@ -1,0 +1,11 @@
+name: Фича
+description: Предложение улучшения
+labels: [enhancement]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Описание и ценность
+      placeholder: Что и зачем?
+    validations:
+      required: true

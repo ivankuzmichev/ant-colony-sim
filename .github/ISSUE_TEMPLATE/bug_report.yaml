@@ -1,0 +1,12 @@
+name: Баг
+description: Сообщение о проблеме
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло?
+      description: Шаги и ожидаемое поведение
+      placeholder: 1) ... 2) ...
+    validations:
+      required: true
