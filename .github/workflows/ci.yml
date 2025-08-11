@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [develop]
+
+jobs:
+  sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Basic sanity checks
+        run: |
+          echo "Repo tree:"
+          ls -la
+          test -f README.md
+          test -f LICENSE
+          test -d src
