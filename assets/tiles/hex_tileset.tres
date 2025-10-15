@@ -1,0 +1,13 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://ceo1j1q8m3l7d"]
+
+[ext_resource type="Texture2D" uid="uid://bxe6ugtyr2uvg" path="res://assets/tiles/soil_tile2.png" id="1_00u1g"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sfa0u"]
+texture = ExtResource("1_00u1g")
+0:0/0 = 0
+
+[resource]
+tile_shape = 3
+tile_offset_axis = 1
+uv_clipping = true
+sources/0 = SubResource("TileSetAtlasSource_sfa0u")

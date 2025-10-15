@@ -1,0 +1,5 @@
+res://src/scenes/world/SoilGrid.gd
+res://src/scenes/world/World.tscn
+res://src/scripts/world/world.gd
+res://assets/tiles/hex_tileset.tres
+res://scenes/ant.tscn

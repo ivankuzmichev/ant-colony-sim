@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bu2352gigglqj"]
+
+[ext_resource type="Script" uid="uid://t5cl3obnf0nu" path="res://scenes/ant.gd" id="1_4guct"]
+[ext_resource type="Texture2D" uid="uid://bctpc3ee2kj0i" path="res://assets/scenes/ant2d.png" id="1_4s44o"]
+
+[node name="Ant" type="Node2D"]
+position = Vector2(48, 0)
+script = ExtResource("1_4guct")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_4s44o")
+
+[node name="CarryAnchor" type="Node2D" parent="Sprite2D"]
+position = Vector2(-46, -8)
